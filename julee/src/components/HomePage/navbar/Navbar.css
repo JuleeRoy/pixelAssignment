@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+#nav{
+    width:100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#nav .logo{
+    flex-basis:30%;
+    display: flex;
+    
+}
+
+.logo > img {
+    width:35px;
+    height:35px;
+}
+.logo > p {
+    font-weight: 800;
+    font-size:25px;
+    margin-top: 5px;
+}
+.section{
+    display: flex;
+    gap:10px;
+    flex-basis: 70%;
+    justify-content: space-between;
+}
+.section .menu-links{
+    display: flex;
+     flex-basis: 50%;
+     justify-content: space-between;
+     
+}
+.section ul li{
+    list-style: none;
+}
+.auth{
+    display: flex;
+    flex-basis: 50%;
+    justify-content: flex-end;
+    gap:30px;
+}
+.hamburger{
+    display: none;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px){
+
+.hamburger{
+    display: block;
+}
+.hamburger span > i 
+{
+    font-size:20px;
+}
+
+.section {
+    position: absolute;
+    right:0px;
+    top:70px;
+    width:0px;
+    box-shadow: 2px gainsboro;
+    transition: 2s ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    z-index: 11;
+    height: calc(100vh - 70px);
+    background-color: white;
+    overflow: hidden;
+    
+}
+.section ul{
+    width:50%;
+    ;
+}
+.section .menu-links{
+    flex-direction: column;
+    
+    
+}
+.auth{
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    
+}
+.open{
+    width:50%;
+}
+
+}

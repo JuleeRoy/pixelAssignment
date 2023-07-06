@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#topBar_Section{
+    border-bottom:1px solid gainsboro;
+    background-color: #EDEFF2;
+    width:100%;
+    height:60px;
+    
+}
+#topBar_Section p{
+    margin: 0px;
+    padding: 0px;
+    /* font-weight: bold; */
+}
+#topBar_Section  ul span , .firstPart span
+{
+    width:25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#topBar_Section nav{
+    width:98%;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#topBar_Section nav ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+#topBar_Section nav ul > li:hover{
+    border-bottom: 2px solid #677DA8;
+
+    cursor: pointer;
+    
+}
+#topBar_Section .firstPart{
+    flex-basis:10%;
+    display: flex;
+    justify-content:space-between;
+}
+
+#topBar_Section .secondPart{
+    flex-basis: 50%;
+}
+#topBar_Section .secondPart >ul{
+    justify-content: space-evenly;
+    font-size: small;
+}
+
+#topBar_Section .thirdPart{
+    flex-basis: 20%;
+}
+.thirdPart form {
+    display: flex;
+    width: 100%;
+    background-color: white;
+    border-radius: 20px;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+.thirdPart form input{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: small;
+    text-transform: capitalize;
+}
+
+
+#topBar_Section .fourthPart{
+    flex-basis: 20%;
+}
+#topBar_Section .fourthPart >ul{
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+
+.fourthPart #searchBar{
+    display: none;
+    
+}
+.user >span{
+    display: none;
+}
+/* small deivice */
+@media only screen and (max-width: 768px)
+ {
+   
+    /* removing inputbox from div */
+    .thirdPart form input{
+        display: none;
+    }
+    #topBar_Section .fourthPart >ul{
+        justify-content: flex-end;
+        gap: 10px;
+    }
+    #topBar_Section .secondPart{
+        flex-basis: 60%;
+    }
+    #topBar_Section .thirdPart{
+        flex-basis: 5%;
+    }
+    #topBar_Section .firstPart{
+        flex-basis: 15%;
+        gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px)
+{
+    #topBar_Section .secondPart{
+        display: none;
+    }
+    #topBar_Section .thirdPart{
+        display: none;
+    }
+    .fourthPart #searchBar{
+    width:25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+}
+@media only screen and (max-width: 375px)
+{
+    #topBar_Section .fourthPart{
+        display: none;
+    }
+    .user > span{
+    width:25px;
+    height: 25px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #topBar_Section nav {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
