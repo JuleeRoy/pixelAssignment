@@ -37,11 +37,11 @@ Here's a demo video showcasing the features and functionality of the Bizpush app
 
 
 ### Home Page
-![Home Page](./src/assets/Screenshots/desktopview/desktop.png)
+![Home Page]_(./src/assets/Screenshots/desktopview/desktop.png)
 The home page displays featured products and promotional banners to attract users and provide an overview of the store's offerings.
 
 ### Shop Page
-![Shop Page](./src/assets/Screenshots/desktopview/shop.png)
+![Shop Page]_(./src/assets/Screenshots/desktopview/shop.png)
 The shop page shows a list of available shoe products with search and filtering options.
 
 
