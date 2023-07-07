@@ -1,4 +1,5 @@
 import React from "react";
+import  avatar from '../../../assets/products/Avatar.png'
 import "./IconBar.css";
 const IconBar = () => {
   return (
@@ -36,22 +37,34 @@ const IconBar = () => {
       <div id="users">
         
         <li>
-          <span>abc</span>
+          <span>
+            <img src={avatar} alt="" className="img-fluid" />
+          </span>
         </li>
         <li>
-          <span>abc</span>
+          <span>
+            <i className="fa-solid fa-user"></i>
+          </span>
         </li>
         <li>
-          <span>abc</span>
+        <span>
+            <i className="fa-solid fa-user"></i>
+          </span>
         </li>
         <li>
-          <span>abc</span>
+        <span>
+            <i className="fa-solid fa-user"></i>
+          </span>
         </li>
         <li>
-          <span>abc</span>
+        <span>
+            <i className="fa-solid fa-user"></i>
+          </span>
         </li>
         <li>
-          <span>abc</span>
+        <span>
+            <i className="fa-solid fa-user"></i>
+          </span>
         </li>
        
       </div>
