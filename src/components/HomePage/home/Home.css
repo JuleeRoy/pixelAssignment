@@ -23,7 +23,7 @@ a:hover
     border-bottom: 2px solid var(--textColor);
 }
 body{
-    /* background: linear-gradient(104.58deg, #FFDCF3 2.1%, #D7FFFF 100.64%); */
+    background: linear-gradient(104.58deg, #FFDCF3 2.1%, #D7FFFF 100.64%);
 }
 
 .active{
