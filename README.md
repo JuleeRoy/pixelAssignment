@@ -6,9 +6,9 @@ Bizpush is a web application for an e-commerce store that specializes in shoes. 
 
 - [Introduction](#introduction)
 - [Features](#features)
-- [Demo](#demo)
+- [DemoVideo](#demovideo)
 - [Screenshots](#screenshots)
-- [Deployment](#deployment)
+- [ProjectDeployment](#projectdeployment)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -26,7 +26,7 @@ This web application provides an online shopping experience for shoe enthusiasts
 - *Responsive Design*: Access the application on various devices with a responsive layout.
 
 
-## Demo
+## DemoVideo
 
 Here's a demo video showcasing the features and functionality of the Bizpush application: [Demo Video](https://drive.google.com/drive/folders/1k2MSYesfnt0wCO7pdZs67ODbAxmeWk2n?usp=sharing)
 
@@ -45,9 +45,9 @@ Here's a demo video showcasing the features and functionality of the Bizpush app
 
 
 
-## Deployment
+## ProjectDeployment
 
-The Bizpush application is deployed using Netlify and can be accessed at the following link: [Live Demo](https://pixel-assignment.vercel.app/)
+The Bizpush application is deployed using Vercel and can be accessed at the following link: [Live Demo](https://pixel-assignment.vercel.app/)
 
 ## Installation
 
