@@ -37,7 +37,7 @@ Here's a demo video showcasing the features and functionality of the Bizpush app
 
 
 ### Home Page
-![Home Page](./src/assets/Screenshots/desktopview/Screenshot%202023-07-07%20165608.png)
+![Home Page](\src\assets\Screenshots\desktopview\Screenshot 2023-07-07 165608.png)
 The home page displays featured products and promotional banners to attract users and provide an overview of the store's offerings.
 
 ### Shop Page
