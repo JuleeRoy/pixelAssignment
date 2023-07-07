@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/pixelAssignment/static/css/main.5e5bb08a.css",
+    "main.js": "/pixelAssignment/static/js/main.8f252604.js",
+    "static/media/shoes.png": "/pixelAssignment/static/media/shoes.37f2321e84e44c4238e8.png",
+    "static/media/shadow.png": "/pixelAssignment/static/media/shadow.b41a742c2f8dfca2aa21.png",
+    "static/media/tv.png": "/pixelAssignment/static/media/tv.44fd388157ef9d20e91a.png",
+    "static/media/lappy.png": "/pixelAssignment/static/media/lappy.3d0bcb095cf17a87f72b.png",
+    "static/media/lappy1.png": "/pixelAssignment/static/media/lappy1.4114bc6297fe5598a578.png",
+    "static/media/watch.png": "/pixelAssignment/static/media/watch.a7c80e011329baf3d238.png",
+    "static/media/speaker.png": "/pixelAssignment/static/media/speaker.f7e0c38583c157d13270.png",
+    "static/media/lappy2.png": "/pixelAssignment/static/media/lappy2.e44a665f0ab6e1ff1f8c.png",
+    "static/media/watch2.png": "/pixelAssignment/static/media/watch2.8582701d0039cf05e737.png",
+    "static/media/Design.png": "/pixelAssignment/static/media/Design.4f5e4c381a446c997977.png",
+    "static/media/desktop.png": "/pixelAssignment/static/media/desktop.d8ef2ef2fe66e9aca722.png",
+    "static/media/lens.png": "/pixelAssignment/static/media/lens.1272bd2354c2cf449abe.png",
+    "static/media/watch3.png": "/pixelAssignment/static/media/watch3.5515257872fa8e4c660a.png",
+    "static/media/slick.svg": "/pixelAssignment/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/pixelAssignment/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/pixelAssignment/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/pixelAssignment/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/pixelAssignment/index.html",
+    "main.5e5bb08a.css.map": "/pixelAssignment/static/css/main.5e5bb08a.css.map",
+    "main.8f252604.js.map": "/pixelAssignment/static/js/main.8f252604.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e5bb08a.css",
+    "static/js/main.8f252604.js"
+  ]
+}
