@@ -28,7 +28,7 @@ This web application provides an online shopping experience for shoe enthusiasts
 
 ## Demo
 
-Here's a demo video showcasing the features and functionality of the Bizpush application: [Demo Video]("")
+Here's a demo video showcasing the features and functionality of the Bizpush application: [Demo Video](https://drive.google.com/drive/folders/1k2MSYesfnt0wCO7pdZs67ODbAxmeWk2n?usp=sharing)
 
 ## Screenshots
 
@@ -38,7 +38,7 @@ Here's a demo video showcasing the features and functionality of the Bizpush app
 
 
 
-![Homepage](./src/assets/Screenshots/desktopview/desktop.png);
+![Homepage](./src/assets/Screenshots/desktopview/desktop.png)
 ![Shop](./src//assets//Screenshots/desktopview/shop.png)
 
 
