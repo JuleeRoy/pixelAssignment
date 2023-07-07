@@ -81,6 +81,7 @@ display: block;
     box-shadow: 5px gainsboro;
     transition:top 2s ease-in;
     padding: 10px;
+    display: none;
 
 }
 @media only screen and (max-width: 600px){
@@ -103,6 +104,9 @@ display: block;
     display: none;
 }
 .arrowDown{
+    display: block;
+}
+#dropDownBox{
     display: block;
 }
 

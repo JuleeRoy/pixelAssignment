@@ -50,7 +50,7 @@ const Popular = () => {
         ],
       };
   return (
-    <div className='mt-5'>
+    <div className>
       <h2>Popular Product</h2>
       <Slider {...settings} style={{width:"95%", margin:"0 auto"}}>
         

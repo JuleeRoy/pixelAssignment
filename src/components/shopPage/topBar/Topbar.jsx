@@ -1,4 +1,5 @@
 import React ,{useState} from 'react'
+import{Link,useLocation} from 'react-router-dom'
 import './Topbar.css'
 const Topbar = () => {
   const [open, setopen] = useState(false);
@@ -7,7 +8,7 @@ const Topbar = () => {
           console.log("dfghbfghnf")
         };
 
-
+        const location=useLocation()
   return (
       <section id="topBar_Section">
         <nav>
@@ -15,22 +16,48 @@ const Topbar = () => {
                   <span onClick={handleOpen}>
                     <i className='fa-solid fa-bars'></i>
                   </span>
-
+                   
+                   <Link to="/shop" className="contractor">
+                          Contractor
+          </Link>
                   
-                
-                  <p>
-                    constructor
-                  </p>
              </div>
              
-          <div  className={`secondPart ${open ? "openSecondPart" : ""}`} >
+          <div className={`secondPart ${open ? "openSecondPart" : ""}`} >
            <ul>
-            <li>Dashboard</li>
-            <li>About Us</li>
-            <li>News</li>
-            <li>User Policy</li>
-            <li>Contact</li>
-            <li>...</li>
+
+           <li>
+            <Link to="/" className={location.pathname === '/' ? 'active' : ''}>
+            Home
+          </Link>
+            </li>
+            <li>
+            <Link to="/dashboard" className={location.pathname === '/dashboard' ? 'active' : ''}>
+            Dashboard
+          </Link>
+              
+            </li>
+            <li>
+            <Link to="/about" className={location.pathname === '/about' ? 'active' : ''}>
+            About Us
+          </Link>
+            </li>
+            <li>
+            <Link to="/new" className={location.pathname === '/new' ? 'active' : ''}>
+            News
+          </Link>
+            </li>
+            <li>
+            <Link to="/userpolicy" className={location.pathname === '/userpolicy' ? 'active' : ''}>
+            UserPolicy
+          </Link>
+            </li>
+            <li>
+            <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
+            Contact
+          </Link>
+            </li>
+            
            </ul>
              </div>
              <div className='thirdPart'>

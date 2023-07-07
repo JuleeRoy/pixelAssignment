@@ -17,8 +17,7 @@ function Navbar() {
 <img src={logo} alt="" />
 <p className=''>BIZPUSH</p>
 </div>
-<div className={`section ${open ? "open" : ""}`}
->
+<div className={`section ${open ? "open" : ""}`}>
     
          <ul className="menu-links">
           <li>
@@ -28,13 +27,16 @@ function Navbar() {
             
           </li>
           <li>
-          <Link to="/shop">Shop</Link>
+          <Link to="/shop" className={location.pathname === '/shop' ? 'active' : ''}>
+            Shop</Link>
           </li>
           <li>
-          <Link to="/">Gallery</Link>
+          <Link to="/gallery" className={location.pathname === '/gallery' ? 'active' : ''}>
+            Gallery</Link>
           </li>
           <li>
-          <Link to="/">Contact</Link>
+          <Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''}>
+            Contact</Link>
           </li>
         </ul>
         <ul className="auth">
@@ -54,12 +56,7 @@ function Navbar() {
 </div>
 
      <div onClick={handleopen} className="hamburger">
-        {/* {open ? <span>
-            <i class="fa-solid fa-x"></i>
-        </span>
-        :  <span>
-        <i className="fa-solid fa-bars"></i>
-        </span>} */}
+        
         <span>
         <i className="fa-solid fa-bars"></i>
         </span>
